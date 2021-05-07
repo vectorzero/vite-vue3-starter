@@ -1,6 +1,5 @@
 <template>
   <div class="home-container page-container">
-    <!-- <img class="vue-element-plus-logo" alt="Vue logo" src="../assets/logo.png" /> -->
     <el-input v-model="value1" placeholder="请输入内容"></el-input>
     <el-input v-model="value2"></el-input>
     <el-input v-model="value3"></el-input>
