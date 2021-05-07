@@ -4,7 +4,6 @@
     <el-input v-model="value1" placeholder="请输入内容"></el-input>
     <el-input v-model="value2"></el-input>
     <el-input v-model="value3"></el-input>
-    <el-input v-model="value4"></el-input>
     <el-button @click="handleClick" type="primary">开始</el-button>
     <div class="page-title">Vite2.x + Vue3.x + TypeScript + Element Plus</div>
   </div>
@@ -24,7 +23,6 @@ export default defineComponent({
       value1: ref(''),
       value2: ref(''),
       value3: ref(''),
-      value4: ref(''),
       handleClick
     }
   }
