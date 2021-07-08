@@ -31,8 +31,11 @@ npm run build
 
 ### 新建gh-pages分支
 
-根目录新建`dist`文件夹
 
 ```sh
-git subtree push --prefix=dist origin gh-pages
+yarn build || npm run build
+git checkout -b gh-pages
+git add -f dist
+git commit -m 'created gh-pages'
+git subtree push --prefix dist origin gh-pages
 ```
